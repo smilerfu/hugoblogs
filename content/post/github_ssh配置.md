@@ -137,5 +137,6 @@ The key's randomart image is:
 ### 问题汇总
 ##### 1. TortoiseGit disconnected no supported authentication报错
 ![](/images/git/git_error_disconnect_no_suported_authentication.png)
+
 该问题即没有配置好TortoiseGit，按照上面配置TortoiseGit进行配置即可
 
