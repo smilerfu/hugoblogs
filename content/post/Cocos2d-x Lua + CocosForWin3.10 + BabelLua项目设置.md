@@ -53,8 +53,11 @@ mathjax: false
   ![](/images/cocos2dx/lua_project_new.png)
   - 右键Lua项目，选择添加现有目录，将F:\cocosproject\MyLuaGame\src目录添加入
   ![](/images/cocos2dx/lua_project_add_existing_folder.png)
+  - 右键LuaProject，选择属性，设置Lua exe path为```$(SolutionDir)../../simulator/win32/MyLuaGame.exe```和Working path为```$(SolutionDir)../../```
+  ![](/images/cocos2dx/lua_project_set_path.png)
   - 设置LuaProject为启动项目
   - 此时添加断点发现并不能中断，修改AppDelegate.cpp文件，添加```LuaStack* stack = engine->getLuaStack();stack->addSearchPath("src/");```
   ![](/images/cocos2dx/lua_project_debug_appdelegate.png)
   - 设置MyLuaGame为启动项目，重新编译运行后，再设置LuaProject为启动项目，此时可以进入断点
+  
 
