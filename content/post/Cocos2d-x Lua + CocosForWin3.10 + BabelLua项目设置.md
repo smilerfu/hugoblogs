@@ -38,13 +38,16 @@ mathjax: false
   - 编译项目
 
 ###### 新建 Cocostudio项目
-  - 打开Cocostudio，选择【文件】，选择【新建项目】
+  - 打开Cocostudio，选择【文件】，选择【新建项目】，我们这里新建项目名称为 CocosProject
   ![](/images/cocos2dx/cocostudio_new_project.png)
-  - 将```F:\cocosproject\MyLuaGame\CocosProject\cocosstudio```拷贝到项目根目录，即```F:\cocosproject\MyLuaGame```
-  - 将```CocosProject.ccs```、```CocosProject.cfg```和```CocosProject.udf```也拷贝到项目根目录，即```F:\cocosproject\MyLuaGame```
-  - 拷贝完毕后，CocosProject这个目录就没有什么用，可以删掉了
+  - 由于我们只用来编辑资源，因此可以删除CocosProject目录底下以下目录和文件:framework、src、res、.project、config.json和.cocos-project.json
   - 修改```CocosProject.cfg```文件中的```CreateFrameworkVersion Value="cocos2d-x-3.16"```和```CurrentFrameworkVersion Value="cocos2d-x-3.16```，目前不清楚此修改是否有作用
-  - 使用Cocostudio打开项目，选择```F:\cocosproject\MyLuaGame\CocosProject.ccs```打开即可。
+  - 使用Cocostudio打开项目，选择```F:\cocosproject\MyLuaGame\CocosProject\CocosProject.ccs```打开即可。
+  - 修改cocostudio项目设置的资源导出目录
+
+    ![](/images/cocos2dx/cocostudio_project_settings.png)
+
+    ![](/images/cocos2dx/cocostudio_project_settings_pack.png)
 
 ###### 新加 lua项目
   - 右键解决方案，添加并新建Lua项目
