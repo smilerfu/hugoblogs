@@ -1,0 +1,2 @@
+1.双击 hugo_publish.bat
+2.进入public目录，git提交
