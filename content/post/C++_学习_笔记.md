@@ -42,7 +42,7 @@ mathjax: false
   - ```++i```效率更高效一些，因为```i++```产生了一个临时的变量temp
 
 ###### 测试代码
-```
+```c++
 #include <iostream>  
 using namespace std;  
   
